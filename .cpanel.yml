@@ -2,4 +2,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/granlivo/rancholastrojes.com.mx/
-    - /bin/cp -R . $DEPLOYPATH
+    - rsync -av --delete
+      --exclude='.git/'
+      --exclude='.gitignore'
+      --exclude='.cpanel.yml'
+      --exclude='*.md'
+      --exclude='assets/images/'
+      --exclude='assets/uploads/'
+      --exclude='config/'
+      . $DEPLOYPATH
