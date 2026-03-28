@@ -1,0 +1,126 @@
+:root {
+  --white: #ffffff !important;
+  --brown: #8b5e3c !important;
+  --midnight-blue-black: #090c10 !important;
+  --black-blue: #121820 !important;
+  --graphite-blue: #1c2129 !important;
+  --text-color: #575757;
+  --divider: #e0e0e0 !important;
+  --dark-divider: #2a2f36 !important;
+}
+
+/* Fondo de la página */
+body {
+  background-color: var(--midnight-blue-black) !important;
+  color: var(--white) !important;
+  margin: 1rem !important; /* Aseguramos que el margen se mantenga */
+}
+
+/* Header */
+.header-wrapper {
+  background-color: var(--black-blue) !important;
+}
+
+/* Logo */
+.logo-circle {
+  background-color: var(--midnight-blue-black) !important;
+}
+
+/* Botones de acción */
+.btn-icon, .btn-text {
+  border-color: var(--dark-divider) !important;
+  background-color: var(--black-blue) !important;
+  color: var(--brown) !important;
+}
+
+.btn-text:hover {
+  border-color: var(--brown) !important;
+  background-color: var(--brown) !important;
+  color: var(--off-white) !important;
+}
+
+/* Menú de navegación móvil */
+.nav-menu-overlay {
+  background-color: var(--brown) !important;
+}
+
+.nav-menu-link {
+  color: var(--white) !important;
+}
+
+/* Overlay del header de página */
+.page-header-overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Sección de contacto */
+.page-contact-start {
+  background-color: var(--black-blue) !important;
+}
+
+.contact-info-row {
+  background-color: var(--graphite-blue) !important;
+}
+
+.icon-box {
+  background-color: var(--black-blue) !important;
+}
+
+.contact-info-title h3 {
+  color: var(--white) !important;
+}
+
+.contact-info-body p {
+  color: var(--white) !important;
+}
+
+.contact-info-body a {
+  color: var(--brown) !important;
+}
+
+.contact-info-body a:hover {
+  color: var(--white) !important;
+}
+
+.contact-divider {
+  background-color: var(--dark-divider) !important;
+}
+
+.contact-form {
+  background-color: var(--graphite-blue) !important;
+}
+
+.form-group label {
+  color: var(--white) !important;
+}
+
+.form-control {
+  background-color: var(--black-blue) !important;
+  color: var(--white) !important;
+}
+
+.form-control:focus {
+  border-color: var(--brown) !important;
+}
+
+.contact-option {
+  border: 1px solid var(--dark-divider) !important;
+}
+
+.contact-option.selected {
+  border-color: var(--brown) !important;
+  background-color: var(--black-blue) !important;
+}
+
+.contact-option:hover {
+  border-color: var(--brown) !important;
+  background-color: var(--black-blue) !important;
+}
+
+.contact-option h4 {
+  color: var(--white) !important;
+}
+
+.btn-submit:hover {
+  background-color: var(--black-blue) !important;
+}

@@ -1,0 +1,16 @@
+# Ignorar contenido pero mantener carpetas
+assets/images/*
+assets/uploads/*
+config/*
+
+# Excepciones: mantener los .gitkeep
+!assets/images/.gitkeep
+!assets/uploads/.gitkeep
+!assets/uploads/fotos/.gitkeep
+!assets/uploads/sliders/.gitkeep
+!assets/uploads/tienda/.gitkeep
+!assets/uploads/tienda/galeria/.gitkeep
+!assets/uploads/tienda/portadas/.gitkeep
+!assets/uploads/videos/.gitkeep
+!assets/uploads/videos/thumbs/.gitkeep
+!config/.gitkeep
